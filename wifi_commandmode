@@ -1,0 +1,14 @@
+Tips for connecting wifi through command line on ubuntu ,
+
+example : wap security type , test1 is SSID  KEY is 1234567890.
+
+/usr/share/checkbox/scripts/create_connection test1 --security=wap --key=1234567890
+
+this will create connection on /etc/NetwrkManager/system-connections/test1
+
+example : wap security type , test1 is SSID  KEY is 1234567890.
+
+/usr/share/checkbox/scripts/create_connection test1 --security=wep --key=1234567890
+sed -i 's/wep-key=/wep-key0=/g' /etc/NetworkManager/system-connections/test1 
+
+
