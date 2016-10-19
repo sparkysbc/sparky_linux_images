@@ -8,9 +8,10 @@ sparky sbc emmc card ubuntu 12.04 image
 
 https://drive.google.com/open?id=0BxXW6oNxptKgcEYzTlBpYmpjY1U
 
+Vana Player Max2play Image V1.2 for Piano2.0: 
+https://drive.google.com/open?id=0BwRHgia-WFv2X3MtUjhpYmtOcDQ
 
-saprky vanaplayer image :
-
+Vana Player Max2play Image V1.2 for Piano2.1: 
 https://drive.google.com/open?id=0BwRHgia-WFv2S0ZWQkdoT04tYTg
 
 =======
