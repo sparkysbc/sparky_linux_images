@@ -34,5 +34,14 @@ https://drive.google.com/file/d/0BxXW6oNxptKga25tdjhmbVN3aEk/view?usp=sharing
 rtl8192cu /rtl8192eu wifi modules drivers  included
 
 https://drive.google.com/open?id=0BxXW6oNxptKgbWVqZmRMbHRsdDg
+
+#3 sparky android image (sd card) : sparky_android_sd_161209.fw
+
+allo_piano hi-fi DAC driver included and configured as default audio out device.
+C-Media USB Mic (0x0d8c:0x0014) tested for Usb audio record.
+
+https://drive.google.com/file/d/0BxXW6oNxptKgNUJhOHo0WVFxT00/view?usp=sharing
+
+
 =======
 
