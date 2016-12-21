@@ -1,10 +1,12 @@
 This folder includes the wifi modules for sparky sbc.
+(kernel version 3.10.37)
 
 1)MT7601.tar
 
 download the above and and extract on sparky sbc /usr/src/
 execute the install.sh script.
-
+wget https://github.com/sparkysbc/sparky_linux_images/raw/master/wifi_drivers/MT7601.tar
+#tar -xvf MT7601.tar
 #cd MT7601
 #sh install.sh
 plug MT7601 chip based USB wifi module on sparky sbc USB 3.0 / USB 2.0 port  and configure wifi SSID & key through Desktop UI or web GUI of the players depends upon the Linux  Image
