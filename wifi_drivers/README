@@ -14,10 +14,15 @@ plug MT7601 chip based USB wifi module on sparky sbc USB 3.0 / USB 2.0 port  and
 
 
 2)MT7610U.tar
-
+wget https://github.com/sparkysbc/sparky_linux_images/raw/master/wifi_drivers/MT7610U.tar
+#cd MT7610U
 #tar -xvf MT7610U.tar
 #cd MT7610U
 #sh install.sh
 plug MT7601 chip based USB wifi module on sparky sbc USB 3.0 / USB 2.0 port  and configure wifi SSID & key through Desktop UI or web GUI of the players depends upon th
 e Linux  Image
 
+
+note : vanaplayer /sparky + max2play images
+below line has to add on /etc/udev/rules.d/70-persistent-net.rules
+ ACTION=="add", SUBSYSTEM=="net", ATTR{type}=="1", KERNEL=="ra*", NAME="wlan0" 
