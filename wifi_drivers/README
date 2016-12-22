@@ -3,8 +3,9 @@ This folder includes the wifi modules for sparky sbc.
 
 1)MT7601.tar
 
-download the above and and extract on sparky sbc /usr/src/
+download MT7601.tar and extract on  /usr/src/
 execute the install.sh script.
+
 wget https://github.com/sparkysbc/sparky_linux_images/raw/master/wifi_drivers/MT7601.tar
 #tar -xvf MT7601.tar
 #cd MT7601
@@ -19,10 +20,19 @@ wget https://github.com/sparkysbc/sparky_linux_images/raw/master/wifi_drivers/MT
 #tar -xvf MT7610U.tar
 #cd MT7610U
 #sh install.sh
-plug MT7601 chip based USB wifi module on sparky sbc USB 3.0 / USB 2.0 port  and configure wifi SSID & key through Desktop UI or web GUI of the players depends upon th
+plug MT7610 chip based USB wifi module on sparky sbc USB 3.0 / USB 2.0 port  and configure wifi SSID & key through Desktop UI or web GUI of the players depends upon th
 e Linux  Image
 
+*****************************************************************
 
-note : vanaplayer /sparky + max2play images
-below line has to add on /etc/udev/rules.d/70-persistent-net.rules
- ACTION=="add", SUBSYSTEM=="net", ATTR{type}=="1", KERNEL=="ra*", NAME="wlan0" 
+note : MT7601 or MT7610 wifi network name will be ra0, some of the  wifi GUI configuration looks for wlan0.
+to rename ra0 to wlan0 add below line on net.rules file on /etc/udev/rules.d/   and reboot the board.
+
+ACTION=="add", SUBSYSTEM=="net", ATTR{type}=="1", KERNEL=="ra*", NAME="wlan0"
+ 
+/etc/udev/rules.d/70-persistent-net.rules
+ or
+ /etc/udev/rules.d/75-persistent-net-generator.rules
+
+**************************************************************
+
