@@ -10,7 +10,14 @@
 
 https://drive.google.com/open?id=0BxXW6oNxptKgcEYzTlBpYmpjY1U
 
+#3 sparky sbc sd ubuntu 12.04 image : sparky_sd_ubuntu_060117.img
 
+https://drive.google.com/open?id=0BxXW6oNxptKgLUtYSGpaN1BOdm8
+
+root user password sparky
+PIANO DAC driver included
+
+RoonBridge can be Installed on this image.
 #***********************************************************#
 	 PIANO DAC / PIANO DAC 2.1 SPARKY IMAGES
 
