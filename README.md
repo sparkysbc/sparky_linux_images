@@ -15,6 +15,7 @@ https://drive.google.com/open?id=0BxXW6oNxptKgcEYzTlBpYmpjY1U
 https://drive.google.com/open?id=0BxXW6oNxptKgLUtYSGpaN1BOdm8
 
 root user password sparky
+
 PIANO DAC driver included
 
 RoonBridge can be Installed on this image.
