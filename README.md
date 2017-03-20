@@ -1,6 +1,5 @@
 # sparky_images
-#*********************************************************#
- 	SPARKY BASIC LINUX IMAGES
+#******  SPARKY BASIC LINUX IMAGES  *******************#
 
 #1 sparky sbc sd ubuntu 12.04 image : sparky_sd_ubuntu_020816.img
 
@@ -10,17 +9,19 @@
 
 https://drive.google.com/open?id=0BxXW6oNxptKgcEYzTlBpYmpjY1U
 
+
 #3 sparky sbc sd ubuntu 12.04 image : sparky_sd_ubuntu_060117.img
 
 https://drive.google.com/open?id=0BxXW6oNxptKgLUtYSGpaN1BOdm8
 
-root user password sparky
+user name : root  , password:  sparky
 
-PIANO DAC driver included
+PIANO DAC driver included , RoonBridge can be Installed on this image.
 
-RoonBridge can be Installed on this image.
-#***********************************************************#
-	 PIANO DAC / PIANO DAC 2.1 SPARKY IMAGES
+
+
+
+#***********PIANO DAC / PIANO DAC 2.1 SPARKY IMAGES ******#
 
 #1 Sparky Vana Player V1.2 sd card Image for Piano 2.0  :sparky_sd_ubuntu_Piano_2_0_171016.img
 
@@ -32,8 +33,11 @@ https://drive.google.com/open?id=0BwRHgia-WFv2X3MtUjhpYmtOcDQ
 https://drive.google.com/open?id=0BwRHgia-WFv2aFBGNEtIYW0yUkE
 
 
-#************************************************************#
-	SPARKY  SBC ANDROID 5.1 IMAGES
+
+
+
+#***************SPARKY  SBC ANDROID 5.1 IMAGES*******************#
+	
 #1 sparky android image (sd card) : sparky_android_sd_161013.fw
 
 https://drive.google.com/file/d/0BxXW6oNxptKga25tdjhmbVN3aEk/view?usp=sharing  
@@ -49,7 +53,4 @@ allo_piano hi-fi DAC driver included and configured as default audio out device.
 C-Media USB Mic (0x0d8c:0x0014) tested for Usb audio record.
 
 https://drive.google.com/file/d/0BxXW6oNxptKgNUJhOHo0WVFxT00/view?usp=sharing
-
-
-=======
 
