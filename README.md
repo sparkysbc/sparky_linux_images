@@ -20,7 +20,7 @@ PIANO DAC driver included , RoonBridge can be Installed on this image.
 
 #4 sparky sd/emmc sbc ubuntu 12.04 image : sparky_sd_emmc_720p_240317.img
 
-https://drive.google.com/open?id=0BxXW6oNxptKgTktBR1FHZkNaSjA
+https://goo.gl/ldzZc9
 
 Note: user : root password: sparky . This Image default HDMI resolution 720p (1280x720p-60),
 WiringSparky tested on this Image for GPIO , i2c-2 , serail ttyS5 .....etc.
