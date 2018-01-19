@@ -67,3 +67,13 @@ drivers included,and configured as default audio out device.
 C-Media USB Mic (0x0d8c:0x0014) tested for Usb audio record.
 
 https://goo.gl/kHF7no
+
+
+#******************Sparky Arch linux Basic Image ******************************
+File Nmae:Sparky_Arch_linux_basic.img.7z    OS Image:Sparky_sd_Arch_180118.img
+
+username : sparky password : sparky  , root login password sparky
+
+https://goo.gl/nWYJbg
+
+#**********************************************
