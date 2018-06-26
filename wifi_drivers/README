@@ -7,25 +7,38 @@ download MT7601.tar and extract on  /usr/src/
 execute the install.sh script.
 
 wget https://github.com/sparkysbc/sparky_linux_images/raw/master/wifi_drivers/MT7601.tar
-#tar -xvf MT7601.tar
-#cd MT7601
-#sh install.sh
+
+tar -xvf MT7601.tar
+
+cd MT7601
+
+sh install.sh
+
 plug MT7601 chip based USB wifi module on sparky sbc USB 3.0 / USB 2.0 port  and configure wifi SSID & key through Desktop UI or web GUI of the players depends upon the Linux  Image
 
 
 
 2)MT7610U.tar
+
 wget https://github.com/sparkysbc/sparky_linux_images/raw/master/wifi_drivers/MT7610U.tar
-#cd MT7610U
-#tar -xvf MT7610U.tar
-#cd MT7610U
-#sh install.sh
+
+cd MT7610U
+
+tar -xvf MT7610U.tar
+
+cd MT7610U
+
+sh install.sh
+
 plug MT7610 chip based USB wifi module on sparky sbc USB 3.0 / USB 2.0 port  and configure wifi SSID & key through Desktop UI or web GUI of the players depends upon th
 e Linux  Image
 
 *****************************************************************
 
-note : MT7601 or MT7610 wifi network name will be ra0, some of the  wifi GUI configuration looks for wlan0.
+note :MT7610U driver updated on 26 june 2018 , will detect as wlan0.
+
+MT7601 wifi network name will be ra0, some of the  wifi GUI configuration looks for wlan0.
+
 to rename ra0 to wlan0 add below line on net.rules file on /etc/udev/rules.d/   and reboot the board.
 
 ACTION=="add", SUBSYSTEM=="net", ATTR{type}=="1", KERNEL=="ra*", NAME="wlan0"
