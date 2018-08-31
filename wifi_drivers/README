@@ -34,6 +34,7 @@ plug MT7610 chip based USB wifi module on sparky sbc USB 3.0 / USB 2.0 port  and
 e Linux  Image
 
 *****************************************************************
+Driver modified on 31 Aug 18 for Devolo WiFi Stick AC (nano usb)
 
 note :MT7610U driver updated on 26 june 2018 , will detect as wlan0.
 
