@@ -36,7 +36,13 @@ e Linux  Image
 *****************************************************************
 Driver modified on 31 Aug 18 for Devolo WiFi Stick AC (nano usb)
 
+refer 7610U based Wi-Fi details : https://wikidevi.com/wiki/MediaTek_MT7610U   
+
 note :MT7610U driver updated on 26 june 2018 , will detect as wlan0.
+
+
+
+
 
 MT7601 wifi network name will be ra0, some of the  wifi GUI configuration looks for wlan0.
 
